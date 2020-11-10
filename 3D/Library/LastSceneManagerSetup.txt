@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/NavMesh/Scene/Example01 - Basics.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
