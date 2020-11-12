@@ -63,8 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\2d movements\Scripts\CharacterController2D.cs" />
-    <Compile Include="Assets\2d movements\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\2D Shooting\Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\2D Shooting\Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\2D Shooting\Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\2D Shooting\Assets\Scripts\PrefabWeapon.cs" />
+    <Compile Include="Assets\2D Shooting\Assets\Scripts\RayCastWeapon.cs" />
+    <Compile Include="Assets\CharacterController2D.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/UnityProjects/Unity-Learning/2D/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
