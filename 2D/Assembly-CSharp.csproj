@@ -69,6 +69,7 @@
     <Compile Include="Assets\2D Shooting\Assets\Scripts\PrefabWeapon.cs" />
     <Compile Include="Assets\2D Shooting\Assets\Scripts\RayCastWeapon.cs" />
     <Compile Include="Assets\CharacterController2D.cs" />
+    <Compile Include="Assets\TOP DOWN MOVEMENT\TopDownMovement.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/UnityProjects/Unity-Learning/2D/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

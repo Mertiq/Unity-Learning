@@ -1,1 +1,5 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/SIMPLE CARTOON WATER/New Scene.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0

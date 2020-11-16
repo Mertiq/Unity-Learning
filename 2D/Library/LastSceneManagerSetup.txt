@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/OrganicLevels/Scenes/New Scene.unity
+- path: Assets/TOP DOWN MOVEMENT/New Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
