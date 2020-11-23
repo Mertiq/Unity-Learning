@@ -43,3 +43,20 @@ The following packages were added:
   com.unity.textmeshpro@2.0.1
   com.unity.timeline@1.2.14
   com.unity.ugui@1.0.0
+
+=== Mon Nov 23 09:20:37 2020
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.2d.pixel-perfect@2.0.4
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.tilemap@1.0.0
+  com.unity.ads@2.3.1
+  com.unity.analytics@3.3.5
+  com.unity.ext.nunit@1.0.0
+  com.unity.ide.visualstudio@1.0.11
+  com.unity.multiplayer-hlapi@1.0.4
+  com.unity.purchasing@2.0.6
+  com.unity.xr.legacyinputhelpers@2.0.2

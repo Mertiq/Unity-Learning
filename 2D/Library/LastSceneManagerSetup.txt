@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/TOP DOWN MOVEMENT/New Scene.unity
+- path: Assets/Make An Rpg Without Coding/Creator Kit - RPG/Scenes/BlankScene 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

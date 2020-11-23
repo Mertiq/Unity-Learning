@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SIMPLE CARTOON WATER/New Scene.unity
-  isLoaded: 0
-  isActive: 0
+- path: Assets/First Person Movement (Character Controller)/New Scene.unity
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
