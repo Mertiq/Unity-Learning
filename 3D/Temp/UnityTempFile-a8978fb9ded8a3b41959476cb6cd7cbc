@@ -1,0 +1,537 @@
+/target:library
+/out:Temp/Unity.Timeline.Editor.dll
+/nowarn:0169
+/nowarn:0649
+/deterministic
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:D:/UnityProjects/Unity-Learning/3D/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll
+/reference:D:/UnityProjects/Unity-Learning/3D/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll
+/reference:D:/UnityProjects/Unity-Learning/3D/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll
+/reference:D:/UnityProjects/Unity-Learning/3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+/reference:D:/UnityProjects/Unity-Learning/3D/Library/PackageCache/com.unity.render-pipelines.core@8.2.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:DEBUG
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_BURST_AOT
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EGL
+/define:ENABLE_ENGINE_CODE_STRIPPING
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:ENABLE_PHYSICS
+/define:ENABLE_PROFILER
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_RUNTIME_PERMISSIONS
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYADS_RUNTIME
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_VIDEO
+/define:ENABLE_VR
+/define:ENABLE_VSTU
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WWW
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_4_6
+/define:PLATFORM_ANDROID
+/define:PLATFORM_EXTENDS_VULKAN_DEVICE
+/define:PLATFORM_HAS_MULTIPLE_SWAPCHAINS
+/define:PLATFORM_SUPPORTS_MONO
+/define:TRACE
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1
+/define:UNITY_2020_1_14
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_ANDROID
+/define:UNITY_ANDROID_API
+/define:UNITY_ASSERTIONS
+/define:UNITY_ASTC_ONLY_DECOMPRESS
+/define:UNITY_CAN_SHOW_SPLASH_SCREEN
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:UNITY_HAS_GOOGLEVR
+/define:UNITY_HAS_TANGO
+/define:UNITY_INCLUDE_TESTS
+/define:UNITY_TEAM_LICENSE
+/define:UNITY_UNITYADS_API
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Actions\ClipsActions.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Actions\ItemAction.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Actions\MarkerActions.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Actions\Menus\MenuItemActionBase.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Actions\Menus\TimelineContextMenu.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Actions\TimelineActions.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Actions\TrackActions.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Activation\ActivationTrackEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Activation\ActivationTrackInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Analytics\TimelineAnalytics.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Animation\AnimationClipActions.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Animation\AnimationClipCurveCache.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Animation\AnimationOffsetMenu.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Animation\AnimationPlayableAssetEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Animation\AnimationTrackActions.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Animation\BindingSelector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Animation\BindingTreeViewDataSource.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Animation\BindingTreeViewDataSourceGUI.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Animation\ClipCurveEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Animation\CurveDataSource.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Animation\CurvesProxy.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Animation\TimelineAnimationUtilities.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Attributes\ActiveInModeAttribute.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Attributes\MenuEntryAttribute.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Attributes\ShortcutAttribute.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Audio\AudioClipPropertiesDrawer.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Audio\AudioPlayableAssetEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Audio\AudioPlayableAssetInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Audio\AudioTrackInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\ControlTrack\ControlPlayableAssetEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\CurveEditUtility.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\CustomEditors\ClipEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\CustomEditors\CustomTimelineEditorCache.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\CustomEditors\MarkerEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\CustomEditors\MarkerTrackEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\CustomEditors\TrackEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\DirectorNamedColor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\DirectorStyles.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Extensions\AnimatedParameterExtensions.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Extensions\AnimationTrackExtensions.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Extensions\TrackExtensions.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Items\ClipItem.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Items\ITimelineItem.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Items\ItemsGroup.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Items\ItemsPerTrack.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Items\ItemsUtils.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Items\MarkerItem.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\AddDelete\AddDeleteItemModeMix.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\AddDelete\AddDeleteItemModeReplace.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\AddDelete\AddDeleteItemModeRipple.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\AddDelete\IAddDeleteItemMode.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Cursors\TimelineCursors.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\EditMode.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\EditModeInputHandler.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Move\IMoveItemMode.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Move\MoveItemHandler.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Move\MoveItemModeMix.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Move\MoveItemModeReplace.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Move\MoveItemModeRipple.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Move\MovingItems.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Sequence\EaseClip.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Sequence\Jog.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Sequence\MarkerHeaderContextMenu.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Sequence\RectangleSelect.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Sequence\RectangleTool.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Sequence\RectangleZoom.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Sequence\SelectAndMoveItem.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Sequence\TrackZoom.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Sequence\TrimClip.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\TimeAreaAutoPanner.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\TimeIndicator.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\TimelineClipGroup.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Trim\ITrimItemMode.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Trim\TrimItemModeMix.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Trim\TrimItemModeReplace.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Trim\TrimItemModeRipple.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Utils\EditModeGUIUtils.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Utils\EditModeMixUtils.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Utils\EditModeReplaceUtils.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Utils\EditModeRippleUtils.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Utils\EditModeUtils.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Utils\ManipulatorsUtils.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Manipulators\Utils\PlacementValidity.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\MenuOrder.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Playables\ControlPlayableInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Properties\AssemblyInfo.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Recording\AnimationTrackRecorder.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Recording\TimelineRecording.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Recording\TimelineRecordingContextualResponder.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Recording\TimelineRecording_Monobehaviour.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Recording\TimelineRecording_PlayableAsset.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Recording\TrackAssetRecordingExtensions.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Shortcuts.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Signals\SignalAssetInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Signals\SignalEmitterEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Signals\SignalEmitterInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Signals\SignalEventDrawer.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Signals\SignalManager.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Signals\SignalReceiverHeader.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Signals\SignalReceiverInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Signals\SignalUtility.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Signals\Styles.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Signals\TreeView\SignalListFactory.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Signals\TreeView\SignalReceiverItem.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Signals\TreeView\SignalReceiverTreeView.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\State\ISequenceState.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\State\SequenceHierarchy.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\State\SequencePath.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\State\SequenceState.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\State\WindowState.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\TimelineEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\TimelineHelpers.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\TimelineSelection.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\TimelineUtility.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Tooltip.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Trackhead.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\UnityEditorInternals.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\AnimatedParameterCache.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\AnimatedParameterUtility.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\BindingUtility.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\BreadcrumbDrawer.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\ClipModifier.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\Clipboard.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\ControlPlayableUtility.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\CustomTrackDrawerAttribute.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\DisplayNameHelper.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\GUIColorOverride.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\GUIGroupScope.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\GUIMixedValueScope.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\GUIViewportScope.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\Graphics.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\KeyTraverser.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\MarkerModifier.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\ObjectExtension.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\ObjectReferenceField.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\PropertyCollector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\Range.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\SequenceSelectorNameFormater.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\SpacePartitioner.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\StyleManager.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\StyleNormalColorOverride.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\TimeReferenceUtility.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\TimelineKeyboardNavigation.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\TrackModifier.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\TrackResourceCache.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Utilities\TypeUtility.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\Modes\TimeReferenceMode.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\Modes\TimelineActiveMode.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\Modes\TimelineAssetEditionMode.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\Modes\TimelineDisabledMode.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\Modes\TimelineInactiveMode.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\Modes\TimelineMode.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\Modes\TimelineReadOnlyMode.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\PlaybackScroller.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineMarkerHeaderGUI.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindowTimeControl.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_ActiveTimeline.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_Breadcrumbs.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_Duration.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_EditorCallbacks.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_Gui.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_HeaderGui.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_Manipulators.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_PlayRange.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_PlayableLookup.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_PreviewPlayMode.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_Selection.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_StateChange.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_TimeArea.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_TimeCursor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\TimelineWindow_TrackGui.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\ViewModel\ScriptableObjectViewPrefs.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\ViewModel\TimelineAssetViewModel.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\ViewModel\TimelineWindowViewPrefs.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\Window\WindowConstants.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\AnimationPlayableAssetInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\AnimationTrackInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\BasicAssetInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\BuiltInCurvePresets.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\ClipInspector\ClipInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\ClipInspector\ClipInspectorCurveEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\ClipInspector\ClipInspectorSelectionInfo.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\CurvesOwner\CurvesOwnerInspectorHelper.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\CurvesOwner\ICurvesOwnerInspectorWrapper.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\DirectorNamedColorInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\EditorClip.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\EditorClipFactory.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\GroupTrackInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\MarkerInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\TimeFieldDrawer.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\TimelineAssetInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\TimelineInspectorUtility.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\inspectors\TrackAssetInspector.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\AnimationTrackKeyDataSource.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Control.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Drawers\AnimationTrackDrawer.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Drawers\ClipDrawer.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Drawers\InfiniteTrackDrawer.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Drawers\Layers\ClipsLayer.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Drawers\Layers\ItemsLayer.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Drawers\Layers\MarkersLayer.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Drawers\TrackDrawer.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Drawers\TrackItemsDrawer.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\IPropertyKeyDataSource.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\IRowGUI.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\InlineCurveEditor.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\ItemGui\ISelectable.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\ItemGui\TimelineClipGUI.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\ItemGui\TimelineItemGUI.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\ItemGui\TimelineMarkerClusterGUI.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\ItemGui\TimelineMarkerGUI.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\ManipulationsClips.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\ManipulationsTimeline.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\ManipulationsTracks.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Manipulator.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\PickerUtils.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Snapping\IAttractable.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Snapping\ISnappable.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\Snapping\SnapEngine.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\TimelineClipHandle.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\TimelineClipUnion.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\TimelineDataSource.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\TimelineDragging.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\TimelineGroupGUI.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\TimelineTrackBaseGUI.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\TimelineTrackErrorGUI.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\TimelineTrackGUI.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\TimelineTreeView.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\TimelineTreeViewGUI.cs
+D:\UnityProjects\Unity-Learning\3D\Library\PackageCache\com.unity.timeline@1.2.14\Editor\treeview\TrackPropertyCurvesDataSource.cs

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Make An Rpg Without Coding/Creator Kit - RPG/Scenes/BlankScene 1.unity
+- path: Assets/Minimap/New Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
