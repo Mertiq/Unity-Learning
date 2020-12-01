@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Rewind Time/New Scene.unity
+- path: Assets/RTS CAMERA/New Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

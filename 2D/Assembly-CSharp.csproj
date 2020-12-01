@@ -73,6 +73,7 @@
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\UI\SpriteUIElement.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Gameplay\ShowConversation.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Core\Schedule.cs" />
+    <Compile Include="Assets\Rewind Time\TimeBody.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Tiles\Random Tile\Scripts\RandomTile.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\UI\TranslationAnimation.cs" />
     <Compile Include="Assets\Dialogue System\DialogueManager.cs" />
@@ -158,7 +159,8 @@
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\UI\DialogLayout.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Core\HeapQueue.cs" />
     <Compile Include="Assets\CharacterController2D.cs" />
-    <Compile Include="Assets\Rewind Time\TimeBody.cs" />
+    <Compile Include="Assets\Slow Motion\TimeManager.cs" />
+    <Compile Include="Assets\RTS CAMERA\RtsCamera.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
