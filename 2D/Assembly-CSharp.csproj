@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Core\InstanceRegister.cs" />
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+    <Compile Include="Assets\Minimap\move.cs" />
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Gameplay\InventoryItem.cs" />
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
@@ -114,6 +115,7 @@
     <Compile Include="Assets\2D Shooting\Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Gameplay\Quest.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Gameplay\FadingSpriteSystem.cs" />
+    <Compile Include="Assets\Minimap\Minimap.cs" />
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Tiles\Weighted Random Tile\WeightedRandomTile.cs" />
@@ -156,8 +158,7 @@
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\UI\DialogLayout.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Core\HeapQueue.cs" />
     <Compile Include="Assets\CharacterController2D.cs" />
-    <Compile Include="Assets\Minimap\move.cs" />
-    <Compile Include="Assets\Minimap\Minimap.cs" />
+    <Compile Include="Assets\Rewind Time\TimeBody.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
