@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/RTS CAMERA/New Scene.unity
+- path: Assets/Multiple Target Camera/New Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

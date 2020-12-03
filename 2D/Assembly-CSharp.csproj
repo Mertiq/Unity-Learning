@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scriptable Opjects\Init_Cube.cs" />
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Gameplay\ConversationPiece.cs" />
+    <Compile Include="Assets\LEVEL EDITOR\LevelGenerator.cs" />
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
     <Compile Include="Assets\TOP DOWN MOVEMENT\TopDownMovement.cs" />
     <Compile Include="Assets\2D Shooting\Assets\Scripts\PlayerMovement.cs" />
@@ -121,12 +122,14 @@
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Tiles\Weighted Random Tile\WeightedRandomTile.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Gameplay\AnimationBatchController.cs" />
+    <Compile Include="Assets\RTS CAMERA\RtsCamera.cs" />
     <Compile Include="Assets\2D Shooting\Assets\Scripts\RayCastWeapon.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\UI\InventoryController.cs" />
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Tiles\Custom\FenceTile.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Tiles\GridInformation\Scripts\GridInformation.cs" />
+    <Compile Include="Assets\LEVEL EDITOR\ColorToPrefab.cs" />
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
@@ -135,6 +138,7 @@
     <Compile Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
     <Compile Include="Assets\Scene Transitions\LevelLoader.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Gameplay\CloudSystem.cs" />
+    <Compile Include="Assets\Slow Motion\TimeManager.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Tiles\Brushes\Tint Brush Smooth\Scripts\TintTextureGenerator.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Tiles\Terrain Tile\Scripts\TerrainTile.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Gameplay\MusicController.cs" />
@@ -159,8 +163,7 @@
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\UI\DialogLayout.cs" />
     <Compile Include="Assets\Make An Rpg Without Coding\Creator Kit - RPG\Scripts\Core\HeapQueue.cs" />
     <Compile Include="Assets\CharacterController2D.cs" />
-    <Compile Include="Assets\Slow Motion\TimeManager.cs" />
-    <Compile Include="Assets\RTS CAMERA\RtsCamera.cs" />
+    <Compile Include="Assets\Multiple Target Camera\MultipleTargetCamera.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Dialogue System\_nvironment\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
